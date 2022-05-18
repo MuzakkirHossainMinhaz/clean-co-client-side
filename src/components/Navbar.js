@@ -13,7 +13,7 @@ const Navbar = ({ children }) => {
         <div class="drawer drawer-end">
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
             <div class="drawer-content flex flex-col">
-                <div class="navbar bg-base-100 max-w-full px-1 lg:px-20">
+                <div class="navbar bg-base-100 max-w-full fixed top-0 z-10 px-1 lg:px-20">
                     <div class="flex-1 px-2 mx-2"><Link to='/' className='text-2xl font-semibold'>Clean Co.</Link></div>
                     <div class="flex-none lg:hidden">
                         <label for="my-drawer-3" class="btn btn-square btn-ghost">
